@@ -37,5 +37,9 @@ Route::group(['middleware' => ['web']], function () {
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
-    Route::get('/home', 'HomeController@index');
+    Route::get('/home', 'HomeController@index')->name('home.index');
+
+    Route::get('/calculate', 'CalculateController@index')->name('calculate.genotype.index');
+    Route::post('/calculate/genotype', 'CalculateController@calculate')->name('calculate.genotype.post');
+
 });
