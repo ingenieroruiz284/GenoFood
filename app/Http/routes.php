@@ -30,6 +30,12 @@ Route::group(['middleware' => ['web']], function () {
     //
 });
 
-Route::get('register', 'RegisterController@getRegister')->name('register');
+//Route::get('register', 'RegisterController@getRegister')->name('register');
 
 
+
+Route::group(['middleware' => 'web'], function () {
+    Route::auth();
+
+    Route::get('/home', 'HomeController@index');
+});
