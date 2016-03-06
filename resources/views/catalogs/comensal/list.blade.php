@@ -16,6 +16,7 @@
                 <thead>
                     <tr>
                         <th>Nombre</th> 
+                        <th>Email</th> 
                         <th>Genero</th> 
                         <th>Edad</th> 
                         <th>Estatura</th> 
@@ -26,6 +27,7 @@
                     @foreach($comensales as $comensal)
                     <tr>
                         <td>{{$comensal->name}}</td>
+                        <td>{{$comensal->email}}</td>
                         <td>{{$comensal->genero}}</td>
                         <td>{{$comensal->edad}}</td>
                         <td>{{$comensal->estatura}}</td>

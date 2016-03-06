@@ -27,6 +27,22 @@
                         </div>
 
                         <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" required class="form-control" id="email" name="email"
+                                       placeholder="Tu email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name" class="col-sm-2 control-label">Telefono</label>
+                            <div class="col-sm-10">
+                                <input type="text" required class="form-control" id="telefono" name="telefono"
+                                       placeholder="Tu telefono">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
                             <label for="genero" class="col-sm-2 control-label">Género</label>
                             <div class="col-sm-10">
                                 <select id="genero" name="genero">

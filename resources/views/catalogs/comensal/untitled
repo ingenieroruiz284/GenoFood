@@ -1,0 +1,14 @@
+ 
+ALTER TABLE areas_departamentos ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE calendariofinanciero ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE catalogoconceptos ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE clavespresupuestales ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE contratos ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE empresas_licitaciones ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE estimaciones ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE licitaciones ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE ministraciones ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE padron_empresas ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE padron_supervisores ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE preciosunitarios ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;
+ALTER TABLE sic_oficiosaut ADD `created_at` TIMESTAMP NOT NULL, ADD `updated_at` TIMESTAMP NOT NULL AFTER `created_at`;

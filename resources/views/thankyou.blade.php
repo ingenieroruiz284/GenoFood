@@ -232,7 +232,64 @@
     padding: 50px;
 ">
         !Gracias por tu registro!
+    </div> 
+
+    <div style="text-align:center;width:100%">
+
+    <?php
+        $genotipo = $_GET["genotipo"];
+        switch ($genotipo) {
+            case '1': 
+            ?>
+            <h1>Tu genotipo es el numero 1</h2>
+            <h2>Cazador</h2>
+            <?php
+            break;
+
+            case '2': 
+            ?>
+            <h1>Tu genotipo es el numero 2</h2>
+            <h2>Recolector</h2>
+            <?php
+            break;
+
+            case '3': 
+            ?>
+            <h1>Tu genotipo es el numero 3</h2>
+            <h2>Maestro</h2>
+            <?php
+            break;
+
+            case '4': 
+            ?>
+            <h1>Tu genotipo es el numero 4</h2>
+            <h2>Explorador</h2>
+            <?php
+            break;
+
+            case '5': 
+            ?>
+            <h1>Tu genotipo es el numero 5</h2>
+            <h2>Guerrero</h2>
+            <?php
+            break;
+
+            case '6': 
+            ?>
+            <h1>Tu genotipo es el numero 6</h2>
+            <h2>Nomada</h2>
+            <?php
+            break;
+            
+            default:
+            break;
+          } 
+    ?>
     </div>
+
+
+
+
 
         <!--- Footer -->
         <footer id="footer">

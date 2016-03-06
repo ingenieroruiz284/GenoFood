@@ -21,8 +21,7 @@
                         <tr>
                             <th>Nombre</th> 
                             <th>Telefono</th> 
-                            <th>Email</th> 
-                            <th>Especialidad</th> 
+                            <th>Email</th>  
                         </tr>
                     </thead>
                     <tbody>
@@ -30,8 +29,7 @@
                         <tr>
                             <td>{{$comensal->name}}</td>
                             <td>{{$comensal->telefono}}</td> 
-                            <td>{{$comensal->email}}</td> 
-                            <td>{{$comensal->especialidad}}</td> 
+                            <td>{{$comensal->email}}</td>  
                         </tr> 
                         @endforeach
                     </tbody>
