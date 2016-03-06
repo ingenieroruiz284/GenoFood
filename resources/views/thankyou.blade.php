@@ -235,7 +235,7 @@
         <div style="font-size: 20px;">30,000 genes + experiencia prenatal + últimos 100,000 años en la tierra= 6 Genotipos</div>
     </div> 
 
-    <div style="text-align:center;width:100%">
+    <div style="padding-left: 7%;padding-right: 7%;">
 
     <?php
         $genotipo = $_GET["genotipo"];
@@ -243,8 +243,30 @@
             case '1': 
             ?>
             <h1>Tu genotipo es el numero 1</h2>
-            <h2>Cazador</h2>
+            <h2>Cazador</h2> 
+
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Altos niveles de energía</div>
+            <div>Metabólicamente eficiente: con buena salud, pueden comer opíparamente sin engorda y dirigirá las calorías a donde sean necesarias para lograr fuerza, resistencia y bienestar óptimos</div>
+            <div>Con la dieta adecuada, es una fuente de energía celular tremenda, cuyo cuerpo funciona con la máxima eficiencia</div>
+            <div>Atlético; alto, de huesos fuertes y bien formado</div>
+            <div>Puntos débiles</div>
+            <div>Respuesta impulsiva a infecciones, virus, agentes alergénicos; tiende a respuestas autoinmunes</div>
+            <div>Sin la dieta adecuada o sin mitigadores de la tensión, es vulnerable a envejecer mal</div>
+            <div>Puede tener problemas digestivos y una mala asimilación de los nutrientes</div>
+            <div>Los órganos de estrés son especialmente vulnerables</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Alergias</div>
+            <div>Enfermedades autoinmunes: asma, artrtitis</div>
+            <div>Depresión</div>
+            <div>Problemas en articulaciones</div>
+            <div>Problemas intestinales del tipo celíaco</div>
+            <div>Cánceres reproducticos</div>
+
             <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+
+
             <?php
             break;
 
@@ -252,7 +274,30 @@
             ?>
             <h1>Tu genotipo es el numero 2</h2>
             <h2>Recolector</h2>
+            
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Impresionante resistencia mental</div>
+            <div>Muy motivado</div>
+            <div>Fertil</div>
+            <div>Potencial para envejecer bien</div>
+            <div>Puntos débiles</div>
+            <div>No logran llevar dietas estrictas y tienden acumular calorías en forma de grasa</div>
+            <div>La regulación del apetito suele ser un problema</div>
+            <div>Su elevada sensibilidad a los estrógenos puede estimular cánceres hormonales</div>
+            <div>Acumulación de sustancias químicas dañinas en los tejidos</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Alzheimer</div>
+            <div>Depresión</div>
+            <div>Hipertensión</div>
+            <div>Resistencia a la insulina y diabetes</div>
+            <div>Baja actividad</div>
+            <div>Obesidad</div>
+            <div>Cánceres reproductivos</div>
+
             <img src="<?php echo url('/') ?>/img/genotipo/2.jpg">
+
+
             <?php
             break;
 
@@ -260,7 +305,27 @@
             ?>
             <h1>Tu genotipo es el numero 3</h2>
             <h2>Maestro</h2>
+            
+
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Sabe adaptarse al entorno</div>
+            <div>Tremenda fuerza mecánica combinada con flexibilidad</div>
+            <div>Envejece bien</div>
+            <div>Puntos débiles</div>
+            <div>Sistema digestivo sensible</div>
+            <div>El sistema inmune a veces no atrapa las mutaciones de cánceres en sus fases iniciales</div>
+            <div>Tiende a tolerar los microbios malignos en vez de eliminarlos</div>
+            <div>Excesivamente centrado en los detalles</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Infecciones de oído crónicas</div>
+            <div>Problemas pulmonares, estomacales e intestinales</div>
+            <div>Infecciones bacterianas</div>
+            <div>Riesgo potencialmente elevado de cáncer de mama</div>
+
+
             <img src="<?php echo url('/') ?>/img/genotipo/3.jpg">
+
             <?php 
             break;
 
@@ -268,6 +333,29 @@
             ?>
             <h1>Tu genotipo es el numero 4</h2>
             <h2>Explorador</h2>
+
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Buena capacidad de reparación de los genes y recuperación de las enfermedades</div>
+            <div>Resistencia física</div>
+            <div>Gran retentiva en edades avanzadas</div>
+            <div>Soluciona problemas con eficacia</div>
+            <div>Puntos débiles</div>
+            <div>Hipersensibilidad ambiental y química</div>
+            <div>Propenso a los accidentes</div>
+            <div>La desintoxicación de hígado suele ser eficaz</div>
+            <div>Difícil de diagnosticas médicamente</div>
+            <div>Tendencia a las irregularidades en la sangre</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Diabetes tipo 1</div>
+            <div>Anemia</div>
+            <div>Autismo, dislexia, epilepsia</div>
+            <div>Cáncer de mama</div>
+            <div>Alergias a los alimentos y el entorno</div>
+            <div>Problemas de hígado</div>
+            <div>Infecciones por levaduras</div>
+
+
             <img src="<?php echo url('/') ?>/img/genotipo/4.jpg">
             <?php
             break;
@@ -276,6 +364,23 @@
             ?>
             <h1>Tu genotipo es el numero 5</h2>
             <h2>Guerrero</h2>
+
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Fuerte</div>
+            <div>Buena recuperación de las enfermedades</div>
+            <div>Puntos débiles</div>
+            <div>Resistencia a la insulina y obesidad</div>
+            <div>Problemas digestivos crónicos</div>
+            <div>Desequilibrio hormonal e infertilidad</div>
+            <div>Enfermedades cardiacas, hipertensión</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Metabolismo ahorrativo</div>
+            <div>Envejece prematuramente</div>
+            <div>La tensión tiende a suprimir su sistema inmune</div>
+
+
+
             <img src="<?php echo url('/') ?>/img/genotipo/5.jpg">
             <?php
             break;
@@ -284,6 +389,22 @@
             ?>
             <h1>Tu genotipo es el número 6</h2>
             <h2>Nomada</h2>
+
+            <div><h2>Puntos fuertes</h2></div>
+            <div>Gran conexión mente-cuerpo</div>
+            <div>Sistema inmune equilibrado</div>
+            <div>Buena capacidad para manejar la tensión</div>
+            <div>Puntos débiles</div>
+            <div>Los efectos y variables dificultan el diagnóstico médico</div>
+            <div>Tracto digestivo sensible, intolerante al gluten</div>
+            <div>La limpieza por parte del sistema inmune puede correr peligro</div>
+
+            <div><h2>Riesgos para la salud</h2></div>
+            <div>Tendencia a infecciones lentas como trastornos virales largos y persistentes</div>
+            <div>Enfermedades neuromusculares con la edad</div>
+            <div>Se cansan fácilmente</div>
+
+
             <img src="<?php echo url('/') ?>/img/genotipo/6.jpg">
             <?php
             break;
