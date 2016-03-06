@@ -43,3 +43,9 @@ Route::group(['middleware' => 'web'], function () {
     Route::post('/calculate/genotype', 'CalculateController@calculate')->name('calculate.genotype.post');
 
 });
+
+
+Route::controllers([ 
+    'comensal' => 'ComensalController', 
+    'cocinero' => 'CocineroController', 
+]); 
