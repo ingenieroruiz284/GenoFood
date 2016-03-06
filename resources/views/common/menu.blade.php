@@ -12,6 +12,7 @@
         <li><a href="<?php echo url('/') ?>/repartidor/add">Repartidores</a></li>
         <li><a href="<?php echo url('/') ?>/rutas">Revisar la ruta</a></li>
         <li><a href="<?php echo url('/') ?>/section/acercade">Acerca de</a></li>
+        <li><a href="<?php echo url('/') ?>/section/alianzas">Alianzas</a></li>
         <!--<li><a href="<?php echo url('/') ?>/contact.html">Contacto</a></li>-->
         <!--<li class="menu-item-has-children">
             <a href="<?php echo url('/') ?>/#">Iniciar sesion</a>

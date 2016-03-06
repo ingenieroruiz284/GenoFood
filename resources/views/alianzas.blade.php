@@ -231,63 +231,26 @@
     font-size: 50px;
     padding: 50px;
 ">
-        !Gracias por tu registro!
+        Alianzas
     </div> 
 
     <div style="text-align:center;width:100%">
-
-    <?php
-        $genotipo = $_GET["genotipo"];
-        switch ($genotipo) {
-            case '1': 
-            ?>
-            <h1>Tu genotipo es el numero 1</h2>
-            <h2>Cazador</h2>
-            <?php
-            break;
-
-            case '2': 
-            ?>
-            <h1>Tu genotipo es el numero 2</h2>
-            <h2>Recolector</h2>
-            <?php
-            break;
-
-            case '3': 
-            ?>
-            <h1>Tu genotipo es el numero 3</h2>
-            <h2>Maestro</h2>
-            <?php 
-            break;
-
-            case '4': 
-            ?>
-            <h1>Tu genotipo es el numero 4</h2>
-            <h2>Explorador</h2>
-            <?php
-            break;
-
-            case '5': 
-            ?>
-            <h1>Tu genotipo es el numero 5</h2>
-            <h2>Guerrero</h2>
-            <?php
-            break;
-
-            case '6': 
-            ?>
-            <h1>Tu genotipo es el número 6</h2>
-            <h2>Nomada</h2>
-            <?php
-            break;
-            
-            default:
-            break;
-          } 
-    ?>
+ 
     </div>
 
+    <div style="width:45%;position:relative;float:left;text-align:center">
+        <img src="http://www.ivoy.mx/imgs/logo-ivoy.png" style="background: rgba(127, 127, 127, 0.18);">
+        <h2>ivoy</h2>
+        <h3>http://www.ivoy.mx/</h3>
+        
+    </div>
 
+    <div style="width:45%;position:relative;float:left;text-align:center">
+        <img src="http://chelajs.com/img/logo-conekta.png" style="max-width: 290px;">
+        <h2>Conekta</h2>
+        <h3>https://www.conekta.io</h3>
+    </div>
+    <div class="clearfix"></div>
 
 
 

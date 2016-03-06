@@ -27,4 +27,9 @@ class SectionController extends Controller {
 		$data = []; 
 		return view('checkout',$data);
 	}
+
+	public function getAlianzas(){  
+		$data = []; 
+		return view('alianzas',$data);
+	}
 } 
