@@ -50,4 +50,5 @@ Route::controllers([
     'cocinero' => 'CocineroController', 
     'repartidor' => 'RepartidorController', 
     'rutas' => 'RutasController', 
+    'section' => 'SectionController', 
 ]); 

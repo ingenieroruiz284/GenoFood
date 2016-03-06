@@ -1,15 +1,17 @@
 <ul class="rst-main-menu">
-        <li class="current-menu-item"><a href="<?php echo url('/') ?>/index.html">Inicio</a></li>
-        <li class="menu-item-has-children">
+        <li class="current-menu-item"><a href="<?php echo url('/') ?>/">Inicio</a></li>
+        <!--<li class="menu-item-has-children">
             <a href="<?php echo url('/') ?>/#">Secciones</a>
             <ul class="sub-menu">
                 <li><a href="<?php echo url('/') ?>/rutas">Revisar la ruta</a></li>
-                <li><a href="<?php echo url('/') ?>/products_list.html">Tienda</a></li>
+                <li><a href="<?php echo url('/') ?>/products_list.html">ACerca</a></li>
             </ul>
-        </li>
+        </li>-->
         <li><a href="<?php echo url('/') ?>/comensal/add">Comensales</a></li>
         <li><a href="<?php echo url('/') ?>/cocinero/add">Cocineros</a></li>
         <li><a href="<?php echo url('/') ?>/repartidor/add">Repartidores</a></li>
+        <li><a href="<?php echo url('/') ?>/rutas">Revisar la ruta</a></li>
+        <li><a href="<?php echo url('/') ?>/section/acercade">Acerca de</a></li>
         <!--<li><a href="<?php echo url('/') ?>/contact.html">Contacto</a></li>-->
         <!--<li class="menu-item-has-children">
             <a href="<?php echo url('/') ?>/#">Iniciar sesion</a>

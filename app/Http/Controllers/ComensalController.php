@@ -28,7 +28,7 @@ class ComensalController extends Controller {
 	public function postAddws(){ 
 	    $comensal = new Comensal(\Request::all());
 	    $comensal->save();
-		return \Redirect::to('/comensal/list');
+		return \Redirect::to('/section/gracias');
 	}  
  
 } 

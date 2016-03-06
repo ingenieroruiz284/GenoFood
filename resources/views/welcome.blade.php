@@ -59,7 +59,7 @@
     <!-- Preloader -->
     <div id="pageLoading">
         <div class="bouncing">
-            <em class="icon-food"></em>
+            <i class="fa fa-circle-o-notch fa-spin" style="position: relative;top: 22px;"></i>
         </div>
     </div>
     
@@ -100,12 +100,12 @@
                                         </div>
                                     </div>
                                     <div class="rst-checkout">
-                                        <a href="<?php echo url('/') ?>/checkout.html" class="btn btn-success btn-sm">Comprar</a>
+                                        <a href="<?php echo url('/') ?>/#" class="btn btn-success btn-sm">Comprar</a>
                                         <span class="price">$70</span>
                                     </div>
                                 </div>
                             </div>
-                            <a href="<?php echo url('/') ?>/register.html" class="rst-signup btn btn-success">Registrarte</a>
+                            <a href="<?php echo url('/') ?>/comensal/add" class="rst-signup btn btn-success">Registrarte</a>
                         </div>
                     </div>
                 </div><!-- End Top Header -->
@@ -823,11 +823,11 @@
                                 <a href="<?php echo url('/') ?>/#" class="rst-logo-footer"><img src="<?php echo url('/') ?>/img/logo-footer.png" alt="" /></a>&copy; Genofood
                             </div>
                             <div class="rst-menu-footer rst-table-cell">
-                                <ul>
+                                <!--<ul>
                                     <li><a href="<?php echo url('/') ?>/about.html">About</a></li>
                                     <li><a href="<?php echo url('/') ?>/menu.html">Menu</a></li>
                                     <li><a href="<?php echo url('/') ?>/contact.html">Contact</a></li>
-                                </ul>
+                                </ul>-->
                             </div>
                             <div class="rst-note rst-table-cell">
                                 <p></p>
