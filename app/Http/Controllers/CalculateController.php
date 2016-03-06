@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Models\GenotypeMenu;
+use App\Models\Platillo;
 use App\Models\UserGenotype;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
 use Faker\Factory as Faker;
+use Illuminate\Support\Facades\Log;
 
 class CalculateController extends Controller
 {
@@ -47,6 +50,43 @@ class CalculateController extends Controller
             $current_user_genotype->save();
         }
 
+        $this->getMenusForGenotype($genotype);
+
         return response()->json(array('success' => true, 'genotype' => $genotype));
+    }
+
+    public function getMenusForGenotype($genotype_id)
+    {
+        $menus = GenotypeMenu::select('menu.id as menu_id', 'menu.name as menu_name', 'menu.platillo1_id as p1', 'menu.platillo2_id as p2', 'menu.platillo3_id as p3')
+            ->join('menu', 'menu.id', '=', 'menu_genotype.menu_id')
+            ->where('menu_genotype.genotype_id', '=', $genotype_id)
+            ->get();
+
+        //Log::info('hola1:::'.print_r($menus, true));
+        foreach ($menus as $menu) {
+            $platillo_1 = Platillo::where('id', '=', $menu->p1)->first();
+            // traer sus ingredientes
+
+            //Log::info('hola:::'.print_r($platillo_1, true));
+            $json = $platillo_1->ingredientes_json;
+            $ingredientes_json = json_decode($json);
+            //Log::info(print_r($ingredientes_json, true));
+            foreach ($ingredientes_json as $ingrediente) {
+                Log::info('id ingrediente: ' . print_r($ingrediente, true));
+                $ingrediente = (array) $ingrediente;
+                $arr_length = count($ingrediente);
+
+                Log::info($arr_length);
+                for($i=0;$i<$arr_length;$i++)
+                {
+                    //
+                }
+            }
+        }
+
+        /*select menu.name as menu_name, menu.`platillo1_id` as p1 , menu.`platillo2_id` as p2, menu.`platillo3_id` as p3 from `menu_genotype`
+inner join menu on menu.id = menu_genotype.menu_id
+where `menu_genotype`.genotype_id = 1*/
+
     }
 }

@@ -7,7 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CreateGenotype' => $baseDir . '/database/migrations/2016_03_05_204329_create_genotype.php',
+    'CreateIngrediente' => $baseDir . '/database/migrations/2016_03_06_000604_create_ingrediente.php',
+    'CreateMenu' => $baseDir . '/database/migrations/2016_03_05_235539_create_menu.php',
+    'CreateMenuGenotype' => $baseDir . '/database/migrations/2016_03_05_235349_create_menu_genotype.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+    'CreatePlatillo' => $baseDir . '/database/migrations/2016_03_06_000402_create_platillo.php',
     'CreateUserGenotype' => $baseDir . '/database/migrations/2016_03_05_203919_create_user_genotype.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
@@ -515,6 +519,10 @@ return array(
     'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => $vendorDir . '/sebastian/recursion-context/src/InvalidArgumentException.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'TableGenotypeSeeder' => $baseDir . '/database/seeds/TableGenotypeSeeder.php',
+    'TableIngredientesSeeder' => $baseDir . '/database/seeds/TableIngredientesSeeder.php',
+    'TableMenuGenotypeSeeder' => $baseDir . '/database/seeds/TableMenuGenotypeSeeder.php',
+    'TableMenuSeeder' => $baseDir . '/database/seeds/TableMenuSeeder.php',
+    'TablePlatilloSeeder' => $baseDir . '/database/seeds/TablePlatilloSeeder.php',
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
 );
