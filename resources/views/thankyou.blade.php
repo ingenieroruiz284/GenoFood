@@ -252,7 +252,7 @@
             ?>
             <h1>Tu genotipo es el numero 2</h2>
             <h2>Recolector</h2>
-            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+            <img src="<?php echo url('/') ?>/img/genotipo/2.jpg">
             <?php
             break;
 
@@ -260,7 +260,7 @@
             ?>
             <h1>Tu genotipo es el numero 3</h2>
             <h2>Maestro</h2>
-            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+            <img src="<?php echo url('/') ?>/img/genotipo/3.jpg">
             <?php 
             break;
 
@@ -268,7 +268,7 @@
             ?>
             <h1>Tu genotipo es el numero 4</h2>
             <h2>Explorador</h2>
-            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+            <img src="<?php echo url('/') ?>/img/genotipo/4.jpg">
             <?php
             break;
 
@@ -276,7 +276,7 @@
             ?>
             <h1>Tu genotipo es el numero 5</h2>
             <h2>Guerrero</h2>
-            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+            <img src="<?php echo url('/') ?>/img/genotipo/5.jpg">
             <?php
             break;
 
@@ -284,7 +284,7 @@
             ?>
             <h1>Tu genotipo es el número 6</h2>
             <h2>Nomada</h2>
-            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
+            <img src="<?php echo url('/') ?>/img/genotipo/6.jpg">
             <?php
             break;
             
