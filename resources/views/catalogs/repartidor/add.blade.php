@@ -6,7 +6,7 @@
             <div class="col-md-12">
                 <blockquote>
                     <p>
-                        Inscríbete y ayuda con tu talento
+                        Ayudanos a repartir la salud
                     </p>
                 </blockquote>
             </div>
@@ -16,7 +16,7 @@
             <div class="col-md-10 col-md-offset-1">
                 <div class="panel panel-default"> 
 
-                    <form class="form-horizontal" id="calculate_genotype" style="padding: 40px;" action="<?php echo url('/') ?>/cocinero/addws" method="post">
+                    <form class="form-horizontal" id="calculate_genotype" style="padding: 40px;" action="<?php echo url('/') ?>/repartidor/addws" method="post">
 
                         <div class="form-group">
                             <label for="name" class="col-sm-2 control-label">Nombre</label>
@@ -55,7 +55,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-10">
                                 <button type="submit" id="calcula" class="btn btn-primary">Inscribir</button>
-                                <a href="<?php echo url('/') ?>/cocinero/list" class="btn btn-default">Cancelar</a>
+                                <a href="<?php echo url('/') ?>/repartidor/list" class="btn btn-default">Cancelar</a>
                             </div>
                         </div>
                     </form>

@@ -100,7 +100,7 @@
                                         </div>
                                     </div>
                                     <div class="rst-checkout">
-                                        <a href="<?php echo url('/') ?>/checkout.html" class="btn btn-success btn-sm">Check out</a>
+                                        <a href="<?php echo url('/') ?>/checkout.html" class="btn btn-success btn-sm">Comprar</a>
                                         <span class="price">$70</span>
                                     </div>
                                 </div>

@@ -48,4 +48,6 @@ Route::group(['middleware' => 'web'], function () {
 Route::controllers([ 
     'comensal' => 'ComensalController', 
     'cocinero' => 'CocineroController', 
+    'repartidor' => 'RepartidorController', 
+    'rutas' => 'RutasController', 
 ]); 

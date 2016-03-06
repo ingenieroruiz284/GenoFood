@@ -3,14 +3,15 @@
         <li class="menu-item-has-children">
             <a href="<?php echo url('/') ?>/#">Secciones</a>
             <ul class="sub-menu">
-                <li><a href="<?php echo url('/') ?>/about.html">Acerca de</a></li>
+                <li><a href="<?php echo url('/') ?>/rutas">Revisar la ruta</a></li>
                 <li><a href="<?php echo url('/') ?>/products_list.html">Tienda</a></li>
             </ul>
         </li>
-        <li><a href="<?php echo url('/') ?>/comensal/list">Comensales</a></li>
-        <li><a href="<?php echo url('/') ?>/cocinero/list">Cocineros</a></li>
-        <li><a href="<?php echo url('/') ?>/contact.html">Contacto</a></li>
-        <li class="menu-item-has-children">
+        <li><a href="<?php echo url('/') ?>/comensal/add">Comensales</a></li>
+        <li><a href="<?php echo url('/') ?>/cocinero/add">Cocineros</a></li>
+        <li><a href="<?php echo url('/') ?>/repartidor/add">Repartidores</a></li>
+        <!--<li><a href="<?php echo url('/') ?>/contact.html">Contacto</a></li>-->
+        <!--<li class="menu-item-has-children">
             <a href="<?php echo url('/') ?>/#">Iniciar sesion</a>
             <div class="sub-menu rst-form-login">
                 <form action="/">
@@ -25,5 +26,5 @@
                     <input type="submit" class="btn btn-success" value="LOg in" />
                 </form>
             </div>
-        </li>
+        </li>-->
     </ul>
