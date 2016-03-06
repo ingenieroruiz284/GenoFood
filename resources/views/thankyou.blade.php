@@ -231,7 +231,8 @@
     font-size: 50px;
     padding: 50px;
 ">
-        !Gracias por tu registro!
+        <div>!Gracias por tu registro!</div>
+        <div style="font-size: 20px;">30,000 genes + experiencia prenatal + últimos 100,000 años en la tierra= 6 Genotipos</div>
     </div> 
 
     <div style="text-align:center;width:100%">
@@ -243,6 +244,7 @@
             ?>
             <h1>Tu genotipo es el numero 1</h2>
             <h2>Cazador</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php
             break;
 
@@ -250,6 +252,7 @@
             ?>
             <h1>Tu genotipo es el numero 2</h2>
             <h2>Recolector</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php
             break;
 
@@ -257,6 +260,7 @@
             ?>
             <h1>Tu genotipo es el numero 3</h2>
             <h2>Maestro</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php 
             break;
 
@@ -264,6 +268,7 @@
             ?>
             <h1>Tu genotipo es el numero 4</h2>
             <h2>Explorador</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php
             break;
 
@@ -271,6 +276,7 @@
             ?>
             <h1>Tu genotipo es el numero 5</h2>
             <h2>Guerrero</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php
             break;
 
@@ -278,6 +284,7 @@
             ?>
             <h1>Tu genotipo es el número 6</h2>
             <h2>Nomada</h2>
+            <img src="<?php echo url('/') ?>/img/genotipo/1.jpg">
             <?php
             break;
             
